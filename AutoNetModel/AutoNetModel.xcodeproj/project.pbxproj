@@ -11,6 +11,7 @@
 		664C69021E02611D00538A3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 664C69011E02611D00538A3E /* main.m */; };
 		664C69041E02611D00538A3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 664C69031E02611D00538A3E /* Assets.xcassets */; };
 		664C69071E02611D00538A3E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 664C69051E02611D00538A3E /* MainMenu.xib */; };
+		66A2B6AC1E0279510010DBEB /* Json.json in Resources */ = {isa = PBXBuildFile; fileRef = 66A2B6AB1E0279510010DBEB /* Json.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		664C69031E02611D00538A3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		664C69061E02611D00538A3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		664C69081E02611D00538A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66A2B6AB1E0279510010DBEB /* Json.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Json.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				664C69011E02611D00538A3E /* main.m */,
+				66A2B6AB1E0279510010DBEB /* Json.json */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -131,6 +134,7 @@
 			files = (
 				664C69041E02611D00538A3E /* Assets.xcassets in Resources */,
 				664C69071E02611D00538A3E /* MainMenu.xib in Resources */,
+				66A2B6AC1E0279510010DBEB /* Json.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +300,7 @@
 				664C690D1E02611E00538A3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

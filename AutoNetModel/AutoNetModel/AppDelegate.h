@@ -10,6 +10,7 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
+@property (nonatomic, weak) IBOutlet NSTextField *textField;/**<解释*/
 
 @end
 
